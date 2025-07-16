@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fit Girl Power</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1584466977774-b052d2106a3b') center/cover no-repeat;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      background-color: rgba(233, 30, 99, 0.7);
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+    nav {
+      background-color: #f06292;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .highlight {
+      color: #e91e63;
+      font-weight: bold;
+    }
+    .social-icons {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 1.5em;
+      color: #e91e63;
+    }
+    form {
+      background-color: #ffe4ec;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    form button {
+      background-color: #e91e63;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+    footer {
+      background-color: #f8bbd0;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+  <!-- Íconos de redes sociales -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <h1>FIT GIRL POWER</h1>
+    <p>Actívate, ámate y alcanza tu mejor versión 💪</p>
+  </header>
+
+  <nav>
+    <a href="#rutinas">Rutinas</a>
+    <a href="#comunidad">Comunidad</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="rutinas">
+    <h2>Rutinas para Mujeres</h2>
+    <p>Descubre rutinas de entrenamiento diseñadas especialmente para ti. Ya sea que estés comenzando o quieras un nuevo desafío, aquí encontrarás lo que necesitas.</p>
+    <ul>
+      <li>🔥 Rutinas en casa</li>
+      <li>💪 Entrenamientos en el gimnasio</li>
+      <li>🧘‍♀️ Ejercicios de movilidad y estiramiento</li>
+    </ul>
+  </section>
+
+  <section id="comunidad">
+    <h2>Únete a Nuestra Comunidad</h2>
+    <p>Comparte tus avances, motívate con otras chicas y sé parte de una red que te impulsa cada día.</p>
+    <div class="social-icons">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Tienes preguntas, sugerencias o quieres colaborar? ¡Escríbenos!</p>
+    <form action="https://formspree.io/f/tu-email" method="POST">
+      <label for="name">Nombre</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Correo electrónico</label>
+      <input type="email" id="email" name="_replyto" required />
+
+      <label for="message">Mensaje</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Fit Girl Power. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
